@@ -132,10 +132,11 @@ nav ul{
 .imagenportada{
   margin: auto;
 }
+
  h2{
-font-size: 65px;
-text-transform: uppercase;
-margin: auto;
+  font-size: 65px;
+  text-transform: uppercase;
+  margin: auto;
  }
 
  .subtitulo{
@@ -177,7 +178,7 @@ tr:hover{
 }
 
 .ns{
-  background: white;
+  background-image: url("../imagenes/news.png");
   padding: 20px;
 }
 
@@ -233,6 +234,11 @@ img{
   text-decoration: none;
 }
 
+.sn{
+  margin-top: 50%;
+  margin-left: 1%;
+}
+
 span{
   font-size: 20px;
 }
@@ -248,10 +254,14 @@ footer{
   padding: 10px 0px;
 }
 
+footer ul{
+margin: auto;
+}
+
 footer p{
   text-align: center;
-  margin-top: 29px;
-  padding-left: 50px;
+  color: rgba(252, 255, 255, 1.0);
+  padding-top: 15px;
 }
 
 /*discography*/
