@@ -1,0 +1,272 @@
+body{
+  margin: 0px;
+  padding: 0px;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+main{
+  /*background-image: url("../imagenes/bg.jpg");*/
+  background: rgba(169,3,41,1);
+  background: -moz-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 31%, rgba(80,0,107,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(169,3,41,1)), color-stop(31%, rgba(143,2,34,1)), color-stop(100%, rgba(80,0,107,1)));
+  background: -webkit-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 31%, rgba(80,0,107,1) 100%);
+  background: -o-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 31%, rgba(80,0,107,1) 100%);
+  background: -ms-linear-gradient(top, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 31%, rgba(80,0,107,1) 100%);
+  background: linear-gradient(to bottom, rgba(169,3,41,1) 0%, rgba(143,2,34,1) 31%, rgba(80,0,107,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#50006b', GradientType=0 );
+  background-position: center;
+}
+
+header{
+  text-decoration: none;
+  position: sticky;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  z-index: 3;
+  padding: 10px;
+  top: 0px;
+}
+
+li{
+  display:inline-block;
+  padding-left: 45px;
+  padding-right: 10px;
+}
+
+.col1{
+  position: relative;
+  transition: color 0.3s;
+}
+
+.col1 li{
+padding: 10px;
+}
+
+.col2{
+  position: absolute;
+  display: none;
+  background-color: orange;
+  color: white;
+  padding: 0px;
+}
+
+.col1:hover .col2{
+  display: block;
+}
+
+.col1:hover{
+  color: orange;
+}
+
+
+li a{
+  transition: color 0.3s;
+}
+
+li a:hover{
+  color: orange;
+}
+
+li :hover{
+  color: orange;
+}
+
+
+a{
+  text-decoration: none;
+  color: white;
+}
+
+.login {
+  border: 1px solid;
+  padding: 5px 10px;
+  border-radius: 25px;
+  color: orange;
+}
+
+/*.socialmedia{
+  text-align: right;
+  padding:0px;
+  margin:0px;
+  position:absolute;
+  right:2px;
+  top: 21px;
+  font-size: 20px;
+  text-decoration: none;
+}*/
+
+.socialmedia{
+
+}
+
+.socialmedia ul{
+  margin: 0px;
+}
+
+h1{
+  display: inline-block;
+  width: 10%;
+  margin: 1px;
+}
+
+nav{
+  float:right;
+  padding-top: 26px;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: white;
+}
+
+nav ul{
+  margin: 0px;
+}
+
+
+.log a{
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+/********************PORTADA********************/
+.imagenportada{
+  margin: auto;
+}
+ h2{
+font-size: 65px;
+text-transform: uppercase;
+margin: auto;
+ }
+
+ .subtitulo{
+   font-size: 40px;
+ }
+/******************** TOUR ********************/
+
+article{
+  width: 93%;
+  padding-top: 50px;
+  margin: auto;
+}
+
+h3{
+  text-transform: uppercase;
+  text-align: center;
+  background-color: wheat;
+}
+
+table{
+  border-collapse: collapse;
+  width: 100%;
+  color: white;
+  border-color: white;
+}
+
+tr, td{
+    padding: 25px;
+    font-size: 21px;
+}
+
+tr:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+/*******************news*******************/
+
+.nsp{
+  display: flex;
+}
+
+.ns{
+  background: white;
+  padding: 20px;
+}
+
+.ns a{
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+
+/********************SHOP********************/
+.imgmerch{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 2fr);
+  grid-gap: 20px;
+}
+
+img{
+  width: 100%;
+  height: 100%;
+}
+
+.merch1{
+  grid-column: 1/ span 2;
+  grid-row: 1/ span 2;
+}
+
+.merch2{
+    grid-column: 3;
+    grid-row: 1;
+}
+
+.merch1 p{
+  position: absolute;
+  left: 15%;
+  font-size: 50px;
+  z-index: 2;
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.9);
+  margin: 0%;
+  padding: 4% 126px;
+}
+
+.merch1 a{
+  position: absolute;
+  font-size: 50px;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.9);
+  padding: 20px 81px;
+  color: white;
+  text-decoration: none;
+}
+
+span{
+  font-size: 20px;
+}
+
+.merch3 {
+    grid-column: 3;
+    grid-row: 2;
+}
+
+footer{
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px 0px;
+}
+
+footer p{
+  text-align: center;
+  margin-top: 29px;
+  padding-left: 50px;
+}
+
+/*discography*/
+.discography{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 2fr);
+  grid-gap: 20px;
+}
+
+.discography li{
+ padding: 0px;
+}
+
+.disc-4{
+  grid-column: 4/5;
+  grid-row: 1/2;
+}
